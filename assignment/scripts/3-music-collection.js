@@ -54,8 +54,7 @@ function showCollection(array){
 }
 
 console.log(collection);
-
-
+console.log(showCollection(collection));
 
 // - Add a function named `findByArtist`. This function should:
 //   - Take in `artist` (a string) parameter
@@ -97,9 +96,9 @@ console.log(findByArtist('Prince'));
 //     - If no results are found, return an empty array.
 //     - If there is no search object or an empty search object provided as input, then return all albums in the `collection`.
 
-function search(artist, title){
-    let sArray = [];
-for(let album of collection)
-    if (album.titile === title)
+// function search(artist, title){
+//     let sArray = [];
+// for(let album of collection)
+//     if (album.titile === title)
 
-}
+// }
